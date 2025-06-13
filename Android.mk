@@ -13,8 +13,6 @@ $(call add-radio-file-sha1-checked,radio/gz.img,b7a9f81235bdf19c77f53d66dc620b93
 $(call add-radio-file-sha1-checked,radio/lk.img,eeabd25291f978382045ca3dcd33f4fdf080b38d)
 $(call add-radio-file-sha1-checked,radio/md1img.img,648af5c8230f8971604be2f4a74493d24c3a52ac)
 $(call add-radio-file-sha1-checked,radio/preloader_raw.img,59d44fab045c2185949fd3be6e15e7f99978f488)
-$(call add-radio-file-sha1-checked,radio/radio_files.txt,9f168cc34732596789ba331f59051348ef52b100)
-$(call add-radio-file-sha1-checked,radio/s.sh,c5def85a1852fefa9d42e1988fbd82e8cc031752)
 $(call add-radio-file-sha1-checked,radio/scp.img,c8c272a3a35e2722f656f2ce72d768beb39d1dc2)
 $(call add-radio-file-sha1-checked,radio/spmfw.img,e432fd1569184e74087fc7b345926cac404e725f)
 $(call add-radio-file-sha1-checked,radio/sspm.img,018eadf732dc6f5d81f95afcf15a1f0c3bd9cbae)
