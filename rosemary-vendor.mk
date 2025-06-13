@@ -240,8 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
-    vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/xiaomi/rosemary/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
@@ -447,6 +445,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosemary/proprietary/vendor/firmware/aw8622_high_f0_M_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622_high_f0_M_cfg.bin \
     vendor/xiaomi/rosemary/proprietary/vendor/firmware/aw8622_high_f0_Q_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622_high_f0_Q_cfg.bin \
     vendor/xiaomi/rosemary/proprietary/vendor/firmware/aw8622_high_f0_Z_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622_high_f0_Z_cfg.bin \
+     vendor/xiaomi/rosemary/proprietary/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6781v01.bin \
     vendor/xiaomi/rosemary/proprietary/vendor/firmware/aw8622_high_f0_cali_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622_high_f0_cali_cfg.bin \
     vendor/xiaomi/rosemary/proprietary/vendor/firmware/aw8622_high_f0_need_setup_M_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622_high_f0_need_setup_M_cfg.bin \
     vendor/xiaomi/rosemary/proprietary/vendor/firmware/aw8622_high_f0_need_setup_Q_cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622_high_f0_need_setup_Q_cfg.bin \
@@ -1664,7 +1663,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.6-service \
-    vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor.mediatek.hardware.pq@2.2-service \

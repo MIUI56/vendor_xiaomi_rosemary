@@ -21965,23 +21965,7 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "vendor.mediatek.hardware.mtkpower@1.0-service",
-	owner: "xiaomi",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	relative_install_path: "hw",
-	soc_specific: true,
-}
+
 
 cc_prebuilt_binary {
 	name: "vendor.mediatek.hardware.nvram@1.1-service",
