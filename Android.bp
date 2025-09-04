@@ -6752,7 +6752,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.sensors@1.0",
                 "libsensorndkbridge",
                 "liblog",
-                "libutils",
+                "libutils-v32",
                 "libcutils",
                 "libpq_prot",
                 "libhidlmemory",
